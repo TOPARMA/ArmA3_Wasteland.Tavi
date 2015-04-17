@@ -9,7 +9,7 @@
 // This file is overridden by the external file "A3Wasteland_settings\main_config.sqf" if present
 
 // General settings
-A3W_startHour = 15;                // In-game hour at mission start (0 to 23)
+A3W_startHour = 8;                // In-game hour at mission start (0 to 23)
 A3W_timeMultiplierDay = 1.0;       // Sets the speed of time between 5 AM and 8 PM (for example, 6.0 means 6 hours in-game will pass in 1 real hour)
 A3W_timeMultiplierNight = 1.0;     // Sets the speed of time between 8 PM and 5 AM
 A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
@@ -19,7 +19,6 @@ A3W_globalVoiceMaxWarns = 5;       // Number of global voice warnings after whic
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
 A3W_spawnBeaconCooldown = 5*60;    // Number of seconds to wait between each use of an individual spawn beacon (0 = disabled)
 A3W_spawnBeaconSpawnHeight = 1500; // Altitude in meters at which players will spawn when using spawn beacons (0 = ground/sea)
-A3W_uavControl = "group";          // Restrict connection to UAVs based on ownership ("owner", "group", "side")
 A3W_vehicleThermals = 0;		   // Allow vehicles to use thermals (0 = disabled)
 A3W_resupplyCostPR = 4;			   // Determine resupply cost by vehicle store cost / A3W_resupplyCostPR. (4 = default, %25 percent)
 A3W_firstPersonCamOnFoot = 0;	   // Lock infantry to first person view
@@ -52,7 +51,7 @@ A3W_atmRemoveIfDisabled = 1;       // Remove all ATMs from map if A3W_atmEnabled
 
 // Persistence settings
 A3W_savingMethod = "extDB";      // Method used for saving data ("profile", "iniDB", "extDB")
-A3W_playerSaving = 1;              // Save player data like position, health, inventory, etc. (0 = no, 1 = yes)
+A3W_playerSaving = 0;              // Save player data like position, health, inventory, etc. (0 = no, 1 = yes)
 A3W_moneySaving = 1;               // If playerSaving = 1, save player money amount (0 = no, 1 = yes)
 A3W_combatAbortDelay = 60;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
 A3W_purchasedVehicleSaving = 1;    // Save vehicles purchased at vehicle stores between server restarts (0 = no, 1 = yes)
@@ -107,14 +106,14 @@ A3W_territoryAllowed = [0,1,2,3,4,5,6,7,8,9]; //Territory Allowed (0:KAVALA,1:AL
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
-A3W_missionsDifficulty = 0;        // Missions difficulty (0 = normal, 1 = hard)
+A3W_missionsDifficulty = 1;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
 A3W_missionsQuantity = 6;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
-A3W_mainMissionDelay = 10*60;      // Time in seconds between Main Missions
+A3W_mainMissionDelay = 2*60;      // Time in seconds between Main Missions
 A3W_mainMissionTimeout = 60*60;    // Time in seconds that a Main Mission will run for, unless completed
-A3W_sideMissionDelay = 5*60;       // Time in seconds between Side Missions
+A3W_sideMissionDelay = 2*60;       // Time in seconds between Side Missions
 A3W_sideMissionTimeout = 45*60;    // Time in seconds that a Side Mission will run for, unless completed
-A3W_moneyMissionDelay = 15*60;     // Time in seconds between Money Missions
+A3W_moneyMissionDelay = 2*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed

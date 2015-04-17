@@ -1,0 +1,14 @@
+TOPARMA.COM A3Wasteland Series for Taviana
+INITIAL RELEASE - 12 APR 2015 V0.1
+
+UPDATE - 15 APR 2015 - v0.15
+[15 APR 2015]
+-Fixed - Sector B guards gear script repeating. Guards should no longer have 53 rockets in their bag (Seabase)
+-Fixed - Various vehicle store spawn fixes (Masin)
+-Fixed - ATM locations and bearings corrected to fit along buildings (Masin)
+-Removed - Kajmans and Blackfoots from Hostile Helicopter missions (Seabase)
+-Change - Reward amounts from normal missions changed for balance. Only one nightstalker and less rockets (Seabase)
+
+
+
+
