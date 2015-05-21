@@ -1,5 +1,8 @@
 TOPArma A3Wasteland series built for Arma 2 map Taviana
-Initial Release - 13 April 2015
+Initial Release - 13 April 2015 Release v2.0 - 16 May 2015
+
+UPDATE FOR FEATURED SERVER - 21 MAY 2015
+Changed - Updated Point Capture Rewards from 3500 to 10000 for Featured Server Week
 
 UPDATE v0.15 - 18 APRIL 2015
 Fixed - Sector B guards spawning with obscene amount of rockets (Seabase)
@@ -18,3 +21,4 @@ Changed - Bilgrad Gun Store location (Masin)
 Changed - Gun store interaction distance increased to 4m from 3m (Motavar)
 
 Removed - Kajmans and Blackfoots from Hostile Helicopter missions (Seabase)
+
